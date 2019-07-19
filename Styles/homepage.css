@@ -1,0 +1,66 @@
+/* Background styles */
+.main-body {
+    background-color: #1e1f26;
+    height: 1000px;
+    width: 100%;
+    background: linear-gradient(to right, #5a5c65, #131419);
+
+}
+
+.main-body > .text-image-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 53px 0px 0px 60px;
+    
+}
+
+.text-image-wrapper > .description-text-wrapper {
+    width: 50%;
+}
+
+/* Codepen text styling */
+.text-image-wrapper > .description-text-wrapper > .description-content-wrapper > .codepen-text {
+    font-size: 2.14rem;
+    line-height: 1.2em;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.text-image-wrapper > .description-text-wrapper > .description-content-wrapper > .codepen-text img {  
+    width: 4%;
+}
+
+.text-image-wrapper > .description-text-wrapper > .description-content-wrapper > .codepen-argument {
+    font-size: 1.5em;
+    line-height: 1.54em;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #ababab;
+}
+
+/* Image styling */
+.text-image-wrapper> .image-wrapper > .project-image-label {
+    padding-bottom: 10px;
+}
+
+.text-image-wrapper > .image-wrapper img {
+    box-shadow: -7px 5px 21px 1px rgba(0,0,0,0.7);
+}
+
+/* Footer styling */
+.main-body > .body-footer {
+    width: 100%;
+    height: 64px;
+    margin-top: 15px;
+    background-color: #4c4c50;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    box-shadow: 0px 7px 53px 32px rgba(0,0,0,0.45);
+}
+
+
+.main-body > .body-footer > .code-pen-plusses {
+    border: 1px solid #8d8e94;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

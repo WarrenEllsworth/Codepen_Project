@@ -1,0 +1,78 @@
+/* main header styles */
+.main-header {
+    width: 100%;
+    height: 95px;
+    background: #060606;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    grid-gap: 30px;
+}
+
+/* left wrapper styles */
+.main-header > .left-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 15px 15px;
+    justify-content: space-between;
+}
+
+/* logo wrapper */
+.main-header > .left-wrapper > .left-logo-wrapper {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    height: 75px;
+}
+
+.main-header > .left-wrapper > .left-logo-wrapper img {
+    width: 100%;
+}
+
+/* links wrapper */
+.main-header > .left-wrapper > .links-wrapper {
+    align-items: center;
+    width: 300px;
+    padding-right: 20px;
+}
+
+.main-header > .left-wrapper > .links-wrapper > .nav-links {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 900;
+    font-size: 1.2em;
+}
+/* spark section */
+.left-wrapper > .spark-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 23px 160px 0px 0px;
+    font-size: 1.13em;
+    color: lightgray;
+}
+
+/* Right Column */
+.main-header > .right-wrapper {
+    height: 100px;
+}
+
+.main-header > .right-wrapper > .btn-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}   
+
+.btn-wrapper > .button i {
+    color: #45d645;
+    font-size: 1.35em;
+}
+
+.right-wrapper > .btn-wrapper > .search-icon i {
+    font-size: 2em;
+    color: grey;
+}
